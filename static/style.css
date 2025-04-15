@@ -1,0 +1,65 @@
+
+h1 {
+    text-align: center;
+}
+
+a:link, a:visited {
+    background-color: blue;
+    color: white;
+    padding: 14px 25px;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: yellow;
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+input[type=submit] {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 16px 32 px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+body {
+    text-align: center;
+}
+
+tr:hover {
+    background-color: yellow;
+    color: black;
+}
+
+table, th, td {
+    text-align: center;
+    border: 1px solid white;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+th, td {
+    background-color: blue;
+    color: white;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}

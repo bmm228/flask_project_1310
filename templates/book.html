@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="static/style.css">
+        <title>Book
+        </title>
+    </head>
+    <body>
+        <form action = "{{ url_for('addrec') }}" method = "POST">
+            <h1>Panther Hotel Room Reservation</h1>
+
+            Name: 
+
+            <input type = "text" name = "name" /></br><br>
+
+            Check-in date: 
+
+            <input type = "text" name = "checkIn" ></input><br><br>
+
+            Check-out date:
+
+            <input type = "text" name = "checkOut" /><br><br>
+
+            Room type: 
+
+            <input type = "text" name = "roomType" /><br><br><br>
+            <input type = "submit" value = "Submit" /><br>
+        </form>
+    </body>
+</html>

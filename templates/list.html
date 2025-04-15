@@ -1,0 +1,30 @@
+<!doctype html>
+<head>
+    <link rel="stylesheet" href="static/style.css">
+    <title>List</title>
+</head>
+<html>
+    <body>
+        {% extends "bootstrap/base.html" %}
+
+        {% block content %}
+        <table class="center">
+            <thead>
+                <td>Name</td>
+                <td>Check-In Date</td>
+                <td>Check-Out Date</td>
+                <td>Room Type</td>
+            </thead>
+            {% for row in rows %}
+                <tr>
+                    <td>{{row["name"]}}</td>
+                    <td>{{row["checkIn"]}}</td>
+                    <td>{{row["checkOut"]}}</td>
+                    <td>{{row['roomType']}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        {% endblock %}
+        <a href = "/">Go back to home page</a>
+    </body>
+</html>
